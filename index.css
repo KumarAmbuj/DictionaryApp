@@ -5,6 +5,19 @@ body{
     overflow-y: hidden;
 
 }
+::-webkit-scrollbar {
+    width: 5px; 
+    height:30px;
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 180, 180); /* Set the color to white */
+    border-radius: 5px; /* Round the edges of the thumb */
+  }
+  /* Define the style for the track (the area the thumb moves along) of the scroll bar */
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* Make the track transparent */
+  }
 .header{
     position: sticky;
     top:0;
@@ -60,10 +73,11 @@ body{
     padding: 5px 10px;
     border: none;
     cursor: pointer;
+    box-shadow: -4px 3px 3px  rgb(151, 149, 149);
 
 }
 .historyBtn:hover{
-    box-shadow: 3px 3px 3px  rgb(209, 204, 204);;
+    box-shadow: 3px 3px 3px  rgb(209, 204, 204);
 }
 .historyBtn .fa{
     font-size: 23px;
@@ -87,6 +101,7 @@ body{
     background-color :rgb(216, 213, 213);
     padding-left: 17px;
     font-size: 17px;
+    box-shadow: -7px 9px 3px rgb(48, 47, 47);
 
 }
 .searchIcon{
@@ -134,7 +149,7 @@ body{
     rotate: -10deg;
     margin: 20px 21px;
     background-color: #30b90e;
-    box-shadow: -7px 9px 3px rgb(75, 74, 74);
+    box-shadow: -7px 7px 6px rgb(104, 103, 103);
     border-radius: 5px;
     word-break: break-all;
     box-sizing: border-box;
@@ -321,21 +336,23 @@ body{
     justify-content: center;
     align-items: center;
     gap:15px;
-    box-shadow: -7px 9px 3px rgb(75, 74, 74);
-    border:1px solid grey;
-    margin:20px;
-    border-radius: 5px;
+    box-shadow: -5px 5px 5px rgb(99, 98, 98);
+    border:1px solid rgb(151, 148, 148);
+    margin:15px;
+    border-radius: 8px;
+    padding:10px;
 }
 .homeCardText{
     font-size: 21px;
-    color:rgb(209, 202, 202);
+    color:rgb(167, 162, 162);
 }
 .selectOptions{
-    background-color: gray;
+    background-color :rgb(150, 146, 146);
     color:black;
     font-size: 17px;
     border-radius: 10px;
     border: none;
+
 }
 @media only screen and (max-width: 600px) {
     .navbar{
