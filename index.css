@@ -210,8 +210,9 @@ body{
    
     background-color: black;
     color: rgb(209, 204, 204);
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Orbitron';
+    letter-spacing: 1px;
     
     position: fixed;
     bottom: 0;
@@ -416,7 +417,7 @@ body{
     }
     .footer{
        
-        font-size: 14px;
+        font-size: 12px;
        
        
     }
