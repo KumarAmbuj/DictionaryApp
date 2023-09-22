@@ -163,7 +163,7 @@ function displayHistoryData(data) {
     "lightblue",
     "lightbrown",
     "pink",
-    "blue",
+    "cyan",
     "lightgreen",
     "yellow",
     "red",
