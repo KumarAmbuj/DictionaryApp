@@ -163,13 +163,14 @@ function displayHistoryData(data) {
     " #30b90e",
     "lightpink",
     "lightblue",
-    "lightbrown",
+    "lightcyan",
     "pink",
     "cyan",
     "lightgreen",
     "yellow",
     "red",
     "lightgreen",
+    "lightcoral",
   ];
 
   if (data.length > 0) {
