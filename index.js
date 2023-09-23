@@ -49,7 +49,7 @@ async function FetchAPI(word) {
         }
       }
     }
-    console.log(obj);
+    //console.log(obj);
     historyData = historyData.filter((val) => {
       return obj["word"] != val["word"];
     });
@@ -148,7 +148,9 @@ function displayMeaning(obj) {
 
 searchButton.addEventListener("click", () => {
   let word = searchInput.value;
-  FetchAPI(word);
+  if (word.length > 0) {
+    FetchAPI(word);
+  }
 });
 
 //history show
