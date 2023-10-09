@@ -5,6 +5,14 @@ const searchButton = document.getElementById("searchButton");
 const mainSection = document.getElementById("mainSection");
 const historyButton = document.getElementById("historyButton");
 
+searchButton.style.visibility = "hidden";
+searchInput.addEventListener("input", () => {
+  if (searchInput.value.length > 0) {
+    searchButton.style.visibility = "visible";
+  } else {
+    searchButton.style.visibility = "hidden";
+  }
+});
 let historyData = [];
 if (localStorage.getItem("history") == null) {
   localStorage.setItem("history", JSON.stringify([]));
